@@ -13,6 +13,13 @@
 		61CD6AA31B07BF8E00FD5DEF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61CD6AA21B07BF8E00FD5DEF /* Images.xcassets */; };
 		61CD6AA61B07BF8E00FD5DEF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61CD6AA41B07BF8E00FD5DEF /* LaunchScreen.xib */; };
 		61CD6AB21B07BF8E00FD5DEF /* ObjectOrientedDemoPart1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CD6AB11B07BF8E00FD5DEF /* ObjectOrientedDemoPart1Tests.swift */; };
+		61CD6AC01B07BFF000FD5DEF /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CD6ABF1B07BFF000FD5DEF /* Vehicle.swift */; };
+		61CD6AC41B07C32B00FD5DEF /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CD6AC31B07C32B00FD5DEF /* Car.swift */; };
+		61CD6AC61B07C58700FD5DEF /* VehicleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CD6AC51B07C58700FD5DEF /* VehicleTableViewController.swift */; };
+		61CD6AC81B07CC7B00FD5DEF /* VehicleDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CD6AC71B07CC7B00FD5DEF /* VehicleDetailViewController.swift */; };
+		61CD6ACA1B07DE4600FD5DEF /* Motorcycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CD6AC91B07DE4600FD5DEF /* Motorcycle.swift */; };
+		61CD6ACC1B07E12600FD5DEF /* Truck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CD6ACB1B07E12600FD5DEF /* Truck.swift */; };
+		61EF747A1B08D04E000B20B5 /* UiAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EF74791B08D04E000B20B5 /* UiAlertViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,13 @@
 		61CD6AAB1B07BF8E00FD5DEF /* ObjectOrientedDemoPart1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjectOrientedDemoPart1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		61CD6AB01B07BF8E00FD5DEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		61CD6AB11B07BF8E00FD5DEF /* ObjectOrientedDemoPart1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectOrientedDemoPart1Tests.swift; sourceTree = "<group>"; };
+		61CD6ABF1B07BFF000FD5DEF /* Vehicle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		61CD6AC31B07C32B00FD5DEF /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		61CD6AC51B07C58700FD5DEF /* VehicleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VehicleTableViewController.swift; sourceTree = "<group>"; };
+		61CD6AC71B07CC7B00FD5DEF /* VehicleDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VehicleDetailViewController.swift; sourceTree = "<group>"; };
+		61CD6AC91B07DE4600FD5DEF /* Motorcycle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Motorcycle.swift; sourceTree = "<group>"; };
+		61CD6ACB1B07E12600FD5DEF /* Truck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Truck.swift; sourceTree = "<group>"; };
+		61EF74791B08D04E000B20B5 /* UiAlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UiAlertViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +97,13 @@
 				61CD6AA21B07BF8E00FD5DEF /* Images.xcassets */,
 				61CD6AA41B07BF8E00FD5DEF /* LaunchScreen.xib */,
 				61CD6A991B07BF8E00FD5DEF /* Supporting Files */,
+				61CD6ABF1B07BFF000FD5DEF /* Vehicle.swift */,
+				61CD6AC31B07C32B00FD5DEF /* Car.swift */,
+				61CD6AC51B07C58700FD5DEF /* VehicleTableViewController.swift */,
+				61CD6AC71B07CC7B00FD5DEF /* VehicleDetailViewController.swift */,
+				61CD6AC91B07DE4600FD5DEF /* Motorcycle.swift */,
+				61CD6ACB1B07E12600FD5DEF /* Truck.swift */,
+				61EF74791B08D04E000B20B5 /* UiAlertViewController.swift */,
 			);
 			path = ObjectOrientedDemoPart1;
 			sourceTree = "<group>";
@@ -212,8 +233,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61CD6AC81B07CC7B00FD5DEF /* VehicleDetailViewController.swift in Sources */,
+				61CD6AC01B07BFF000FD5DEF /* Vehicle.swift in Sources */,
+				61CD6AC61B07C58700FD5DEF /* VehicleTableViewController.swift in Sources */,
+				61EF747A1B08D04E000B20B5 /* UiAlertViewController.swift in Sources */,
 				61CD6A9E1B07BF8E00FD5DEF /* ViewController.swift in Sources */,
+				61CD6AC41B07C32B00FD5DEF /* Car.swift in Sources */,
 				61CD6A9C1B07BF8E00FD5DEF /* AppDelegate.swift in Sources */,
+				61CD6ACA1B07DE4600FD5DEF /* Motorcycle.swift in Sources */,
+				61CD6ACC1B07E12600FD5DEF /* Truck.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +437,7 @@
 				61CD6AB71B07BF8E00FD5DEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		61CD6AB81B07BF8E00FD5DEF /* Build configuration list for PBXNativeTarget "ObjectOrientedDemoPart1Tests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +446,7 @@
 				61CD6ABA1B07BF8E00FD5DEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
